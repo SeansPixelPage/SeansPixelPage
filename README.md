@@ -4,13 +4,13 @@
 <meta charset = "UTF-8" />
 <style>
 body {
-  margin: 10;
+  margin: 0;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
+  width: 10%;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
