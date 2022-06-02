@@ -4,7 +4,7 @@
 <meta charset = "UTF-8" />
 <style>
 body {
-  margin: 0;
+  margin: 10;
 }
 ul {
   list-style-type: none;
