@@ -10,7 +10,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 10%;
+  width: 8%;
   background-color: #f1f1f1;
   position: fixed;
   height: 100%;
