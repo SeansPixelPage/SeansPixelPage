@@ -4,6 +4,11 @@
 <meta charset = "UTF-8" />
 <!-- Snap Pixel Code -->
 <script type='text/javascript'>
+var email='test@snapchat.com';
+var currency='USD';
+var price='11.50';
+var transactionid='1111';
+
 (function(e,t,n){if(e.snaptr)return;var a=e.snaptr=function()
 {a.handleRequest?a.handleRequest.apply(a,arguments):a.queue.push(arguments)};
 a.queue=[];var s='script';r=t.createElement(s);r.async=!0;
@@ -12,13 +17,13 @@ u.parentNode.insertBefore(r,u);})(window,document,
 'https://sc-static.net/scevent.min.js');
 
 snaptr('init', 'ba3c8593-2a82-4722-bddb-abc326654521', {
-'user_email': '__INSERT_USER_EMAIL__'
+'user_email': email
 });
 
 snaptr('track', 'PURCHASE',{
-'transaction_id': '0123456',
-'price': '7.50',
-'currency': 'EUR'
+'transaction_id': transactionid,
+'price': price,
+'currency': currency
 });
 
 </script>
